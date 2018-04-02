@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "帅的IP地址查看器",
+  "version": "0.1",
+  "description": "帅的第二个Chrome扩展",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon19.png",
+      "38": "images/icon38.png"
+    },
+    "default_title": "帅的IP地址查看器",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "*://*.sohu.com/*"
+  ]
+}
