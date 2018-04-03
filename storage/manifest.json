@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "存储API",
+  "version": "0.1",
+  "description": "存储API",
+  "browser_action": {
+    "default_title": "存储API",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
